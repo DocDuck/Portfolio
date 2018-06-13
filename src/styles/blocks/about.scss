@@ -1,0 +1,23 @@
+.about {
+  @extend %clearfix;
+}
+
+.about__left, .about__right {
+  float: left;
+  width: 50%;
+  position: relative;
+}
+
+.about__left {
+	background: $lime;
+}
+
+.about__right {
+  background: $lime-white;
+}
+
+.about__triangles {
+  position: absolute;
+  bottom: 100%;
+}
+

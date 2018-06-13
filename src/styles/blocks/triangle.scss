@@ -1,0 +1,18 @@
+.triangle {
+  height: 100px;
+  width: 100%;
+
+  &_fill {
+
+    &_lime-white {
+      fill: $lime-white;
+    }
+
+    &_lime {
+      fill: $lime;
+    }
+
+  }
+}
+
+
