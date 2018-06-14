@@ -35,14 +35,14 @@ block content
         class="triangle triangle_fill_lime about__triangles")
         polygon(points="0,0 0,100 1000,100")
       +title('Обо мне', 'about-header.png', 'about__section-title')
-      +title('Новый заголовок!', 'works-header.png')
+      //- +title('Новый заголовок!', 'works-header.png')
       .user-about
         .user-about__picture
         .user-about__title
           .subtitle
             | Кто я
         .user-about__text
-          p Я веб разработчик из Перми. Мне 27 лет. Я занимаюсь разработкой современных сайтов и приложений. Мне нравится делать интересные и современные проекты.
+          p Я веб разработчик из Перми. Мне 27 лет. Я занимаюсь разработкой современных сайтов и приложений. Мне нравится делать интересные и современные проекты.
           
     .about__right
       svg(
@@ -58,8 +58,7 @@ block content
             p Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam officia incidunt, quisquam sit harum totam, perspiciatis nesciunt, culpa at, laborum nobis error. In doloremque iusto rem, alias incidunt, expedita quos.
         .about-data__content
 
-        //-
-          ul.skills
+            ul.skills
               each skill in skills
                 each skillsArray, skillName in skill
                   li.skills__item
