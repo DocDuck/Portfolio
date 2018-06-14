@@ -1,8 +1,9 @@
 .user {
 	text-align: center;
+	@include centered();
 }
 
-.user__photo {
+.user__pic-container {
 	width: 147px;
 	height: 147px;
 	border-radius: 50%;
@@ -11,7 +12,7 @@
 	display: inline-block;
 }
 
-.user__photo-avatar {
+.user__pic {
 	display: block;
 	max-width: 100%;
 }

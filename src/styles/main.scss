@@ -1,14 +1,14 @@
-$lime: #ebefe2;
-$lime-white: #f4f5f0;
-$aboutme-bg: #e2ebd0;
-$main-font-color : #373e42;
-$diagram: #77a266;
+//colors
+$white: #efeee9;
+$beige: #eeebdf;
+$green: #10c1a8;
+$gray: #455a64;
+$light-beige: #f9f8f0;
 
-//layout setups
+@import "helpers/mixins";
+
 @import "layout/setups";
 @import "layout/fonts";
 
-//mixins
-@import "helpers/mixins";
 
-@import "blocks/**/*";
+@import "blocks/**/*.scss";
